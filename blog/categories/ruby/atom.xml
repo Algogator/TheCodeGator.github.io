@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ruby | The Code Gator]]></title>
   <link href="http://thecodegator.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://thecodegator.github.io/"/>
-  <updated>2015-10-01T19:03:12+05:30</updated>
+  <updated>2015-10-01T19:09:59+05:30</updated>
   <id>http://thecodegator.github.io/</id>
   <author>
     <name><![CDATA[Code Gator]]></name>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<p>I keep coming across symbols a lot in Ruby, and it takes time to make sense of why it was put there in the first place.
 This little piece of artcile I came across answered the questions of context.</p>
 
-<p>The following statements are handy in using (or not using) symbols:</p>
+<p><a href="http://www.troubleshooters.com/codecorn/ruby/symbols.htm">http://www.troubleshooters.com/codecorn/ruby/symbols.htm</a></p>
 
 <ul>
 <li> A Ruby symbol looks like a colon followed by characters. (:mysymbol)</li>
