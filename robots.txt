@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://thecodegator.github.io/sitemap.xml 
