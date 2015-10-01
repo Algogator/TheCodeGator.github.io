@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[The Code Gator]]></title>
   <link href="http://thecodegator.github.io/atom.xml" rel="self"/>
   <link href="http://thecodegator.github.io/"/>
-  <updated>2015-10-01T06:40:35+05:30</updated>
+  <updated>2015-10-01T06:43:50+05:30</updated>
   <id>http://thecodegator.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Code Gator]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://thecodegator.github.io/blog/2015/10/01/hello-world/"/>
+    <updated>2015-10-01T06:43:39+05:30</updated>
+    <id>http://thecodegator.github.io/blog/2015/10/01/hello-world</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>

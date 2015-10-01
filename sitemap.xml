@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://thecodegator.github.io/blog/2015/10/01/hello-world/</loc>
+    <lastmod>2015-10-01T06:43:39+05:30</lastmod>
+  </url>
+  <url>
     <loc>http://thecodegator.github.io/javascripts/libs/bootstrap-3.0.0/components.html</loc>
   </url>
   <url>
