@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - The Code Gator</title>
+  <title>:Symobols in Ruby - The Code Gator</title>
   <meta name="author" content="Code Gator">
 
   
@@ -16,7 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://thecodegator.github.io/blog/archives">
+  <link rel="canonical" href="http://thecodegator.github.io/blog/2015/10/01/symobols-in-ruby">
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="The Code Gator" type="application/atom+xml">
 
@@ -77,25 +77,12 @@
         <div id="content">
           <div class="row">
   <div class="page-content col-md-9">
-    <article role="article">
+    <article class="hentry" role="article">
       
-        <header class="page-header">
-          
-          
-            <h1 class="entry-title">
-              Blog Archive
-              
-            </h1>
-          
-        </header>
-      
-      <div class="entry-content">
-        <div id="blog-archives">
-
-
-<article class="page-header">
-  
-<h5><span class="meta text-muted">
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
 
 
 
@@ -108,34 +95,84 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-10-01T18:56:38+05:30" pubdate data-updated="true"></time></span>&nbsp;<a href="/blog/2015/10/01/symobols-in-ruby/">:Symobols in Ruby</a></h5>
-
-</article>
-
-
-<article class="page-header">
-  
-<h5><span class="meta text-muted">
-
-
-
-
-
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-10-01T18:56:38+05:30" pubdate data-updated="true"></time>
+        
+      </p>
+    
+    
+    <h1 class="entry-title">
+        :Symobols in Ruby
+        
+    </h1>
+    
+  </header>
 
 
+<div class="entry-content clearfix"><p>I keep coming across symbols a lot in Ruby, and it takes time to make sense of why it was put there in the first place.
+This little piece of artcile I came across answered the questions of context.</p>
 
+<p>The following statements are handy in using (or not using) symbols:</p>
 
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-10-01T06:43:39+05:30" pubdate data-updated="true"></time></span>&nbsp;<a href="/blog/2015/10/01/hello-world/">Hello World</a></h5>
-
-</article>
+<ul>
+<li> A Ruby symbol looks like a colon followed by characters. (:mysymbol)</li>
+<li> A Ruby symbol is a thing that has both a number (integer) and a string.</li>
+<li> The value of a Ruby symbol&rsquo;s string part is the name of the symbol, minus the leading colon.</li>
+<li> A Ruby symbol cannot be changed at runtime.</li>
+<li> Neither its string representation nor its integer representation can be changed at runtime.</li>
+<li> Ruby symbols are useful in preventing modification.</li>
+<li> Like most other things in Ruby, a symbol is an object.</li>
+<li> When designing a program, you can usually use a string instead of a symbol.</li>
+<li>  Except when you must guarantee that the string isn&rsquo;t modified.</li>
+<li> Symbol objects do not have the rich set of instance methods that String objects do.</li>
+<li> After the first usage of :mysymbol all further useages of :mysymbol take no further memory &ndash; they&rsquo;re all the same object.</li>
+<li> Ruby symbols save memory over large numbers of identical literal strings.</li>
+<li> Ruby symbols enhance runtime speed to at least some degree.</li>
+</ul>
 
 </div>
 
-      </div>
-      
+
+      <footer>
+        <p class="meta text-muted">
+          
+  
+
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard">Posted by <span class="fn">Code Gator</span></span>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-10-01T18:56:38+05:30" pubdate data-updated="true"></time>
+        </p>
+        
+          <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://thecodegator.github.io/blog/2015/10/01/symobols-in-ruby/" data-via="TheCodeGator" data-counturl="http://thecodegator.github.io/blog/2015/10/01/symobols-in-ruby/" >Tweet</a>
+  
+  
+  
+</div>
+
+        
+        
+          <ul class="meta text-muted pager">
+            
+            <li class="previous"><a href="/blog/2015/10/01/hello-world/" title="Previous Post: Hello World">&laquo; Hello World</a></li>
+            
+            
+          </ul>
+        
+      </footer>
     </article>
     
   </div>

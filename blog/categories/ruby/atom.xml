@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[The Code Gator]]></title>
-  <link href="http://thecodegator.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: ruby | The Code Gator]]></title>
+  <link href="http://thecodegator.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://thecodegator.github.io/"/>
   <updated>2015-10-01T19:03:12+05:30</updated>
   <id>http://thecodegator.github.io/</id>
@@ -39,15 +39,6 @@ This little piece of artcile I came across answered the questions of context.</p
 <li> Ruby symbols enhance runtime speed to at least some degree.</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://thecodegator.github.io/blog/2015/10/01/hello-world/"/>
-    <updated>2015-10-01T06:43:39+05:30</updated>
-    <id>http://thecodegator.github.io/blog/2015/10/01/hello-world</id>
-    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   

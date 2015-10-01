@@ -99,6 +99,63 @@
 
 
 
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-10-01T18:56:38+05:30" pubdate data-updated="true"></time>
+        
+      </p>
+    
+    
+      <h1 class="entry-title"><a href="/blog/2015/10/01/symobols-in-ruby/">:Symobols in Ruby</a></h1>
+    
+  </header>
+
+
+  <div class="entry-content clearfix"><p>I keep coming across symbols a lot in Ruby, and it takes time to make sense of why it was put there in the first place.
+This little piece of artcile I came across answered the questions of context.</p>
+
+<p>The following statements are handy in using (or not using) symbols:</p>
+
+<ul>
+<li> A Ruby symbol looks like a colon followed by characters. (:mysymbol)</li>
+<li> A Ruby symbol is a thing that has both a number (integer) and a string.</li>
+<li> The value of a Ruby symbol&rsquo;s string part is the name of the symbol, minus the leading colon.</li>
+<li> A Ruby symbol cannot be changed at runtime.</li>
+<li> Neither its string representation nor its integer representation can be changed at runtime.</li>
+<li> Ruby symbols are useful in preventing modification.</li>
+<li> Like most other things in Ruby, a symbol is an object.</li>
+<li> When designing a program, you can usually use a string instead of a symbol.</li>
+<li>  Except when you must guarantee that the string isn&rsquo;t modified.</li>
+<li> Symbol objects do not have the rich set of instance methods that String objects do.</li>
+<li> After the first usage of :mysymbol all further useages of :mysymbol take no further memory &ndash; they&rsquo;re all the same object.</li>
+<li> Ruby symbols save memory over large numbers of identical literal strings.</li>
+<li> Ruby symbols enhance runtime speed to at least some degree.</li>
+</ul>
+
+</div>
+  
+  
+
+
+        </article>
+      
+      
+        <article class="post">
+          
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
 <span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-10-01T06:43:39+05:30" pubdate data-updated="true"></time>
         
       </p>
