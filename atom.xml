@@ -4,7 +4,7 @@
   <title><![CDATA[The Code Gator]]></title>
   <link href="http://thecodegator.github.io/atom.xml" rel="self"/>
   <link href="http://thecodegator.github.io/"/>
-  <updated>2015-10-01T19:09:59+05:30</updated>
+  <updated>2015-10-03T14:59:54+05:30</updated>
   <id>http://thecodegator.github.io/</id>
   <author>
     <name><![CDATA[Code Gator]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hacktoberfest 2015]]></title>
+    <link href="http://thecodegator.github.io/blog/2015/10/03/hacktoberfest-2015/"/>
+    <updated>2015-10-03T00:38:57+05:30</updated>
+    <id>http://thecodegator.github.io/blog/2015/10/03/hacktoberfest-2015</id>
+    <content type="html"><![CDATA[<p>Something for you guys to work on over this month ;)</p>
+
+<p><img src="http://thecodegator.github.io/assets/hackfest.png" alt="Hacktoberfest 2015" />
+<a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest 2015 - DigitalOcean</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[:Symobols in Ruby]]></title>
